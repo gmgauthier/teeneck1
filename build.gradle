@@ -37,7 +37,7 @@ dependencies {
     testImplementation 'io.cucumber:cucumber-junit:6.7.0'
 }
 
-//java {
+//java { // THIS WILL BREAK THE DB DEMO, WHICH REQUIRES JDK11
 //    sourceCompatibility = JavaVersion.VERSION_1_8
 //    targetCompatibility = JavaVersion.VERSION_1_8
 //}
